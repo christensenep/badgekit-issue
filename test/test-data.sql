@@ -1,5 +1,6 @@
 INSERT INTO `systems` SET
   `id` = 1,
+  `imageId` = 1,
   `slug` = 'chicago',
   `name` = 'Chicago',
   `url` = 'http://cityofchicago.org',
@@ -8,6 +9,7 @@ INSERT INTO `systems` SET
 
 INSERT INTO `systems` SET
   `id` = 2,
+  `imageId` = 1,
   `slug` = 'pittsburgh',
   `name` = 'Pittsburgh',
   `url` = 'http://pittsburghpa.gov',
@@ -48,6 +50,7 @@ INSERT INTO `issuers` SET
 INSERT INTO `programs` SET
   `id` = 1,
   `issuerId` = 1,
+  `imageId` = 1,
   `slug` = 'mit-scratch',
   `name` = 'MIT Scratch',
   `url` = 'http://scratch.mit.edu/',
@@ -56,6 +59,7 @@ INSERT INTO `programs` SET
 
 INSERT INTO `programs` SET
   `id` = 2,
+  `imageId` = 1,
   `slug` = 'khan-academy',
   `name` = 'Khan Academy',
   `url` = 'https://www.khanacademy.org/',

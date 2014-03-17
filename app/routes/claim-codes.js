@@ -96,7 +96,7 @@ exports = module.exports = function applyClaimCodesRoutes (server) {
              findProgramBadge, makeRandomCode)
 
   function makeRandomCode(req, res, next) {
-    const row = {code: ClaimCodes.makeRandom(10)}
+    const row = {code: ClaimCodes.makeRandom(10), badgeId: req.badge.id}
     ClaimCodes
       .put(row)
       .then(function (result) {
